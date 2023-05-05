@@ -7,6 +7,7 @@
   "scripts": {
     "build": "npx rollup -c",
     "built-ts": "npx tsc",
+    "deploy": "node ./deploy.mjs dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
     "rollup": "^3.20.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "warp-contracts": "^1.4.5",
+    "warp-contracts-plugin-deploy": "^1.0.8"
   }
 }

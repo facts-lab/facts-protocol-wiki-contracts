@@ -1,0 +1,4 @@
+/*
+* ArWiki PST Contract
+*/
+export {};

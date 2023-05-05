@@ -1,0 +1,4 @@
+/*
+* ArWiki Contract State
+*/
+export {};
